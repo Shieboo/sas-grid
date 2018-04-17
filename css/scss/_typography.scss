@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+$font-stack: 'Roboto Slab', 'Helvetica Neue', Arial, Helvetica, 'Liberation Sans', sans-serif;
+$text-color: #1f2021;
+
+[class*='sas-col-'] {
+  font-family: $font-stack;
+  color: $text-color;
+}

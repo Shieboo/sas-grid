@@ -1,0 +1,33 @@
+body {
+  background: #aaa;
+}
+
+.example-container {
+  margin: 20px auto 0;
+  padding: 10px;
+  max-width: 980px;
+  background: #eee;
+  border: 3px solid #999;
+}
+
+.example-p-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.example-p-description {
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+}
+
+.example-row {
+  margin: 20px 0;
+}
+
+.example-col {
+  list-style: none;
+  text-align: center;
+  outline: 1px solid #333;
+}

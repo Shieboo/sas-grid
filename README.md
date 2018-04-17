@@ -1,2 +1,2 @@
 # sas-grid
-SAS framework is a Grid Framework using CSS Grid.
+> SAS framework is a Grid Framework using CSS Grid.

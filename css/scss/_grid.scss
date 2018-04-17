@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+$col-width: 60px;
+$gutter-width: 20px;
+
+@mixin grid-unit($span) {
+  .sas-col-#{$span} {
+    flex-grow: 1;
+    margin-left: $gutter-width / 2;
+    margin-right: $gutter-width / 2;
+    max-width: ($col-width * $span) + ($gutter-width * ($span - 1));
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.sas-row {
+  display: flex;
+  flex-flow: row nowrap;
+  max-width: ($col-width + $gutter-width) * 12;
+}
+
+@include grid-unit(1);
+@include grid-unit(2);
+@include grid-unit(3);
+@include grid-unit(4);
+@include grid-unit(5);
+@include grid-unit(6);
+@include grid-unit(7);
+@include grid-unit(8);
+@include grid-unit(9);
+@include grid-unit(10);
+@include grid-unit(11);
+@include grid-unit(12);
