@@ -1,5 +1,5 @@
 # sas-grid
-> SAS framework is a Grid Framework using CSS Grid.
+> SAS framework is a 12 Column Grid Framework using CSS Grid.
 
 #### It use:
 
@@ -35,3 +35,8 @@ Just include the stylesheet ```style.css``` in the head of your html document:
 </body>
 </html>
 ```
+Create a new row by adding the class ```sas-row``` and add column
+by adding the class ```sas-col-#``` where # is a number between 1 and 12
+(the sum of all 'column-size' should be equal to 12).
+
+[Example Grid](https://shieboo.github.io/sas-grid/)

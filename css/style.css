@@ -353,7 +353,7 @@ template {
 }
 
 .sas-col-2 {
-  flex-grow: 1;
+  flex-grow: 2;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 140px;
@@ -362,7 +362,7 @@ template {
 }
 
 .sas-col-3 {
-  flex-grow: 1;
+  flex-grow: 3;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 220px;
@@ -371,7 +371,7 @@ template {
 }
 
 .sas-col-4 {
-  flex-grow: 1;
+  flex-grow: 4;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 300px;
@@ -380,7 +380,7 @@ template {
 }
 
 .sas-col-5 {
-  flex-grow: 1;
+  flex-grow: 5;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 380px;
@@ -389,7 +389,7 @@ template {
 }
 
 .sas-col-6 {
-  flex-grow: 1;
+  flex-grow: 6;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 460px;
@@ -398,7 +398,7 @@ template {
 }
 
 .sas-col-7 {
-  flex-grow: 1;
+  flex-grow: 7;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 540px;
@@ -407,7 +407,7 @@ template {
 }
 
 .sas-col-8 {
-  flex-grow: 1;
+  flex-grow: 8;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 620px;
@@ -416,7 +416,7 @@ template {
 }
 
 .sas-col-9 {
-  flex-grow: 1;
+  flex-grow: 9;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 700px;
@@ -425,7 +425,7 @@ template {
 }
 
 .sas-col-10 {
-  flex-grow: 1;
+  flex-grow: 10;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 780px;
@@ -434,7 +434,7 @@ template {
 }
 
 .sas-col-11 {
-  flex-grow: 1;
+  flex-grow: 11;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 860px;
@@ -443,7 +443,7 @@ template {
 }
 
 .sas-col-12 {
-  flex-grow: 1;
+  flex-grow: 12;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 940px;
@@ -451,6 +451,11 @@ template {
   padding-bottom: 5px;
 }
 
+@media screen and (max-width: 768px) {
+  [class*=sas-col-] {
+    max-width: 100%;
+  }
+}
 [class*=sas-col-] {
   font-family: "Roboto Slab", "Helvetica Neue", Arial, Helvetica, "Liberation Sans", sans-serif;
   color: #1f2021;

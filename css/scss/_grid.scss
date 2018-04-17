@@ -9,7 +9,7 @@ $gutter-width: 20px;
 
 @mixin grid-unit($span) {
   .sas-col-#{$span} {
-    flex-grow: 1;
+    flex-grow: $span;
     margin-left: $gutter-width / 2;
     margin-right: $gutter-width / 2;
     max-width: ($col-width * $span) + ($gutter-width * ($span - 1));
@@ -36,3 +36,9 @@ $gutter-width: 20px;
 @include grid-unit(10);
 @include grid-unit(11);
 @include grid-unit(12);
+
+@media screen and(max-width:768px){
+	[class*="sas-col-"]{
+    max-width: 100%;
+  }
+}
