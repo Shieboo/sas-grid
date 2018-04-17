@@ -345,110 +345,110 @@ template {
 
 .sas-col-1 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-2 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 140px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-3 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 220px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-4 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-5 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 380px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-6 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 460px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-7 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 540px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-8 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 620px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-9 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 700px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-10 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 780px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-11 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 860px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sas-col-12 {
   flex-grow: 1;
-  padding-top: 5px;
-  padding-bottom: 5px;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 940px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 [class*=sas-col-] {
